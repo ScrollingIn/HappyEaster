@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("headerbg.jpg");
+    background-attachment: fixed;
+
+}
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    background: #1E201F;
+}
+
+#title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sidehead {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #1E201F;
+}
+
+.navi {
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+a.navi:hover {
+    background-color: red;
+}
+
+.bodydiv {
+    height: 100%;
+    margin-top: 0;
+}
+
+#homediv {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+}
+
+#homediv h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#aboutdiv {
+    font-size: 25px;
+    text-align: center;
+}
+
+#productsdiv {
+    font-size: 25px;
+    text-align: center;
+}
+
+#contactdiv {
+    font-size: 25px;
+    text-align: center;
+}
